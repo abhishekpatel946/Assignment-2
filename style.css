@@ -1,0 +1,267 @@
+/* ------------ body  ------------ */
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("../img/bg1.jpg");
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+/* -------------- for all placeholder --------------------- */
+::placeholder {
+  color: rgb(205, 241, 240);
+  opacity: 0.6;
+}
+/* --------------- for all select / dropdown -------------- */
+select option {
+  margin: 40px;
+  background-color: transparent;
+  color: rgb(205, 241, 240);
+}
+select option[value="male"] {
+  background-color: transparent;
+  color: black;
+}
+select option[value="female"] {
+  background-color: transparent;
+  color: black;
+}
+select option[value="other"] {
+  background-color: transparent;
+  color: black;
+}
+select option[value="admin"] {
+  background-color: transparent;
+  color: black;
+}
+select option[value="operation"] {
+  background-color: transparent;
+  color: black;
+}
+select option[value="sales"] {
+  background-color: transparent;
+  color: black;
+}
+
+/* --------------divide into two columns------------------- */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* ------------ container ------------ */
+.container {
+  padding: 10px;
+  width: 380px;
+  margin-top: 10px;
+}
+
+/* ------------ login section ------------ */
+.login_container {
+  width: 360px;
+  height: 280px;
+  background-image: url("../img/bg1.jpg");
+  background-color: rgba(0, 0, 0, 0);
+  background-size: 100% 20 0%;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 15px 15px;
+  position: relative;
+}
+#login_heading {
+  color: white;
+  padding: 10px;
+  margin-left: 120px;
+}
+#login_username {
+  position: absolute;
+  height: 45px;
+  width: 310px;
+  background-color: transparent;
+  color: rgb(205, 241, 240);
+  font-size: 20px;
+  margin-top: 10px;
+  left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+#login_password {
+  position: absolute;
+  height: 35px;
+  width: 310px;
+  background-color: transparent;
+  color: rgb(205, 241, 240);
+  font-size: 20px;
+  margin-top: 80px;
+  left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#login_submit {
+  position: absolute;
+  height: 35px;
+  width: 180px;
+  border: none;
+  font-size: 20px;
+  margin-top: 150px;
+  left: 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(5, 93, 117);
+  color: white;
+  cursor: pointer;
+}
+
+/* ------------ register section ------------ */
+.register_container {
+  width: 360px;
+  height: 560px;
+  background-image: url("../img/bg1.jpg");
+  background-size: 100% 20 0%;
+  background-repeat: inherit;
+  border-radius: 15px 15px 15px 15px;
+  position: relative;
+  margin: 10px 0 0 0;
+}
+#reg_heading {
+  color: white;
+  padding: 10px;
+  margin-left: 120px;
+}
+#reg_email {
+  position: absolute;
+  height: 45px;
+  width: 310px;
+  background-color: transparent;
+  color: rgb(205, 241, 240);
+  font-size: 20px;
+  margin-top: 20px;
+  left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+#reg_username {
+  position: absolute;
+  height: 45px;
+  width: 310px;
+  background-color: transparent;
+  color: rgb(205, 241, 240);
+  font-size: 20px;
+  margin-top: 80px;
+  left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+#reg_fname {
+  position: absolute;
+  height: 45px;
+  width: 310px;
+  background-color: transparent;
+  color: rgb(205, 241, 240);
+  font-size: 20px;
+  margin-top: 140px;
+  left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+#reg_lname {
+  position: absolute;
+  height: 45px;
+  width: 310px;
+  background-color: transparent;
+  color: rgb(205, 241, 240);
+  font-size: 20px;
+  margin-top: 200px;
+  left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+#reg_password {
+  position: absolute;
+  height: 45px;
+  width: 310px;
+  background-color: transparent;
+  color: rgb(205, 241, 240);
+  font-size: 20px;
+  margin-top: 260px;
+  left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+#reg_gender {
+  position: absolute;
+  height: 45px;
+  width: 310px;
+  background-color: transparent;
+  color: rgb(205, 241, 240);
+  opacity: 0.6;
+
+  /* color: black; */
+  font-size: 20px;
+  margin-top: 300px;
+  left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#reg_role {
+  position: absolute;
+  height: 45px;
+  width: 310px;
+  background-color: transparent;
+  color: rgb(205, 241, 240);
+  opacity: 0.6;
+  /* color: black; */
+  font-size: 20px;
+  margin-top: 360px;
+  left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#reg_submit {
+  position: absolute;
+  height: 35px;
+  width: 180px;
+  border: none;
+  font-size: 20px;
+  margin-top: 410px;
+  left: 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(5, 93, 117);
+  color: white;
+  cursor: pointer;
+}
+
+/* ------------ data container ------------ */
+.data_container {
+  color: white;
+  position: relative;
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.data_container > ul {
+  list-style-type: circle;
+}
+
+.data_container > ul > li {
+  margin-bottom: 10px;
+}
