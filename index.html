@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/assignment-Day_7_Assignment-2/CSS/style.css">
+    <title>Single Page App</title>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <div class="container">
+                <!-- login section -->
+                <div class="login_container">
+                    <h2 id="login_heading">Sign in</h2>
+                    <input type="text" placeholder="Username or Email" id="login_username" required>
+                    <input type="password" placeholder="Password" id="login_password" required>
+                    <button type="submit" id="login_submit">Login</button>
+                </div>
+        
+                <!-- register section -->
+                <div class="register_container">
+                    <h2 id='reg_heading'>Sign up</h2>
+                    <form action="">
+                        <input type="email" placeholder="Email" id="reg_email" required>
+                        <input type="text" placeholder="Username" id="reg_username" required>
+                        <input type="text" placeholder="First Name" id="reg_fname"required>
+                        <input type="text" placeholder="Last Name" id="reg_lname"required>
+        
+                        <input type="password" placeholder="Password" id="reg_password"required>
+                        <br>
+                        <select name="Geneder" id="reg_gender"required>
+                            <option value="">Please choose your gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">other</option>
+                        </select>
+                        
+                        <select name="Role" id="reg_role"required>
+                            <option value="">Please choose your role</option>
+                            <option value="admin">Admin</option>
+                            <option value="operation">Operation</option>
+                            <option value="sales">Sales</option>
+                        </select>
+                        <br>
+                        <button type="submit" id="reg_submit">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <!-- data display section -->
+            <div class="data_container">
+                <ul id="list">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="/assignment-Day_7_Assignment-2/JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+image: ubuntu:latest
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - mv CSS/ ./public
+    - mv JS/ ./public
+    - mv img/ ./public
+    - mv index.html ./public
+  artifacts:
+    paths:
+      - public
